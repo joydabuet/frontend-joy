@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Profile Joy</title>
+      <style>
+         a {
+            text-decoration: none;
+            color:beige;
+         }
+         a:hover {
+            cursor: pointer;
+            color: #d4af37; 
+         }
+         body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(45deg, #2e2921, #2e2921); 
+            padding: 0;
+            margin: 0;
+         }
+         .container {
+            width: 500px;
+            background-color:black;
+            border-radius: 30px;
+            box-shadow: 0 8px 16px rgba(170, 168, 168, 0.5);
+            margin: auto;
+            margin-top: 30px;
+            padding-bottom: 30px;
+            overflow: hidden;
+        
+         }
+         .logo {
+            display: flex;
+            justify-content: center;
+            padding-top: 30px;
+            padding-bottom: 20px;
+         }
+         .logo img {
+            width: 100px; 
+         }
+         .profile-pic-wrapper {
+            margin: auto;
+            width: 80%;
+         }
+         .profile-pic-wrapper img {
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+            transition: transform 0.3s ease;
+         }
+         .profile-pic-wrapper img:hover {
+            transform: scale(1.05); 
+         }
+         .details {
+            margin: auto;
+            width: 80%;
+            margin-top: 20px;
+            color: #554e4e;
+         }
+         .details div {
+            margin-bottom: 15px;
+         }
+         .details span {
+            color: #d4af37;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="container">
+        
+         <div class="logo">
+            <a href="">
+               <img src="src/img/crescendo logo.webp" alt="Logo">
+            </a>
+         </div>
+
+        
+         <div class="profile-pic-wrapper">
+            <a target="_blank" href="https://www.linkedin.com/in/joy-dabuet/">
+               <img src="src/img/15.jpg" alt="Missing Photo">
+            </a>
+         </div>
+
+         
+         <div class="details">
+            <div>
+               <span>Name:</span> <a target="_blank" href="https://www.linkedin.com/in/joy-dabuet/">Joy Dabuet</a>
+            </div>
+            <div>
+               <span>Position:</span> <a target="_blank" href="https://en.wikipedia.org/wiki/Help_desk">Helpdesk Agent / Content Editor</a>
+            </div>
+            <div>
+               <span>Email:</span> <a href="mailto:joy.dabuet@cresendocollective.com">joy.dabuet@cresendocollective.com</a>
+            </div>
+            <div>
+               <span>Contact number:</span> <a href="tel:09637969817">0963-796-9817</a>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

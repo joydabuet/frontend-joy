@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Profile Card</title>
+      <style>
+         body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #1e1e1e;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+         }
+         .card-container {
+            display: flex;
+            background-color: #2b2b2b;
+            width: 600px;
+            border-radius: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            align-items: center;
+         }
+         .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 20px;
+            margin-right: 20px;
+         }
+         .logo {
+            width: 100px;
+            margin-right: 20px;
+         }
+         .logo img {
+            width: 100%;
+         }
+         .details {
+            color: #fff;
+            flex-grow: 1;
+         }
+         .details div {
+            margin-bottom: 10px;
+         }
+         .details span {
+            font-weight: bold;
+            color: #f0b429; /* Golden color */
+         }
+         .details a {
+            color: #fff;
+            text-decoration: none;
+         }
+         .details a:hover {
+            color: #f0b429;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="card-container">
+         <!-- Profile Picture -->
+         <img src="src/img/crescendo logo.webp" alt="Profile Picture" class="profile-pic">
+         
+         <!-- Logo -->
+         <div class="logo">
+            <img src="src/img/38..jpg" alt="Crescendo Collective Logo">
+         </div>
+
+         <!-- Details -->
+         <div class="details">
+            <div>
+               <span>Name:</span> Joy Dabuet
+            </div>
+            <div>
+               <span>Position:</span> Helpdesk Agent / Content Editor
+            </div>
+            <div>
+               <span>Email:</span> <a href="mailto:joy.dabuet@cresendocollective.com">joy.dabuet@cresendocollective.com</a>
+            </div>
+            <div>
+               <span>Contact number:</span> <a href="tel:09637969817">0963-796-9817</a>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
